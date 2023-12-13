@@ -1,0 +1,142 @@
+﻿@model IEnumerable<Somativa.Models.Cliente>
+
+@{
+    ViewData["Title"] = "Clientes";
+}
+<partial name="~/Views/Home/_LayoutParcial.cshtml" />
+
+<div class="bg-white container bordinha">
+    <h1 class="text-center text-uppercase pt-3">@ViewData["Title"]</h1>
+
+
+    <div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                    <th class="d-none d-sm-table-cell">
+                    @Html.DisplayNameFor(model => model.Endereco)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Telefone)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cpf)
+                </th>
+                    <th class="d-none d-sm-table-cell">
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                    <th class="d-none d-sm-table-cell">
+                    @Html.DisplayNameFor(model => model.Nascimento)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                        <td class="d-none d-sm-table-cell">
+                        @Html.DisplayFor(modelItem => item.Endereco)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Telefone)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Cpf)
+                    </td>
+                        <td class="d-none d-sm-table-cell">
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                        <td class="d-none d-sm-table-cell">
+                        @Html.DisplayFor(modelItem => item.Nascimento)
+                    </td>
+                    <td class="text-end">
+                        <a asp-action="Edit" asp-route-id="@item.ClienteId" class="aSemLinha">
+                            <svg bootstrap-icon="PencilSquare" width="32" height="32" aria-label="Alarms" class="text-primary"></svg>
+                        </a>
+                        
+                        <button asp-action="Delete" asp-route-id="@item.ClienteId" class="btn aSemLinha" data-bs-toggle="modal" data-bs-target="#Apagar-@item.ClienteId">
+                            <svg bootstrap-icon="TrashFill" width="32" height="32" aria-label="Alarms" class="text-danger"></svg>
+                        </button>
+                    </td>
+                </tr>
+
+                <!-- Modal APAGAR -->
+                <div class="modal fade" id="Apagar-@item.ClienteId" tabindex="-1" aria-labelledby="ApagarLabel" aria-hidden="true">
+
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="text-center alert alert-danger">Tem certeza que deseja apagar esse Cliente?</h3>
+                            </div>
+                            <div class="modal-body">
+                                <div>
+                                    <dl class="row text-center">
+                                        <dt class="col-sm-4">
+                                            @Html.DisplayNameFor(model => model.Nome)
+                                        </dt>
+                                        <dd class="col-sm-8">
+                                            @Html.DisplayFor(model => item.Nome)
+                                        </dd>
+                                        <dt class="col-sm-4">
+                                            @Html.DisplayNameFor(model => model.Endereco)
+                                        </dt>
+                                        <dd class="col-sm-8">
+                                            @Html.DisplayFor(model => item.Endereco)
+                                        </dd>
+                                        <dt class="col-sm-4">
+                                            @Html.DisplayNameFor(model => model.Telefone)
+                                        </dt>
+                                        <dd class="col-sm-8">
+                                            @Html.DisplayFor(model => item.Telefone)
+                                        </dd>
+                                        <dt class="col-sm-4">
+                                            @Html.DisplayNameFor(model => model.Cpf)
+                                        </dt>
+                                        <dd class="col-sm-8">
+                                            @Html.DisplayFor(model => item.Cpf)
+                                        </dd>
+                                        <dt class="col-sm-4">
+                                            @Html.DisplayNameFor(model => model.Email)
+                                        </dt>
+                                        <dd class="col-sm-8">
+                                            @Html.DisplayFor(model => item.Email)
+                                        </dd>
+                                        <dt class="col-sm-4">
+                                            @Html.DisplayNameFor(model => model.Nascimento)
+                                        </dt>
+                                        <dd class="col-sm-8">
+                                            @Html.DisplayFor(model => item.Nascimento)
+                                        </dd>
+                                        <!-- Add other properties as needed -->
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="modal-footer text-center justify-content-center">
+                                <form asp-action="Delete" asp-route-id="@item.ClienteId">
+                                    <input type="hidden" asp-for="@item.ClienteId" />
+                                    <input type="submit" value="Delete" class="btn btn-danger" />
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" aria-label="Close" asp-action="Index">Voltar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            }
+        </tbody>
+    </table>
+    </div>
+
+    <div class="text-center pb-3">
+        <a asp-action="Create">
+            <svg bootstrap-icon="PlusSquareFill" width="32" height="32" aria-label="Alarms" class="text-success"></svg>
+        </a>
+    </div>
+</div>

@@ -1,0 +1,158 @@
+﻿@{
+    ViewData["Title"] = "Produtos";
+}
+
+
+<div class=" container d-flex row">
+    <div class="flex-column col-md-3">
+
+        <div class="card text-bg-dark mb-5">
+
+            <h4 class="card-header bg-success text-white text-center">Bem-Vindo!</h4>
+            <div class="card-body">
+                <h5 class="card-subtitle mb-3 text-center">À Floresta Encantada Floricultura!</h5>
+                <p class="card-text">
+                    Somos apaixonados por transformar sentimentos em flores. Com raízes profundas na natureza, criamos arranjos únicos para todas as ocasiões. Nosso compromisso com a sustentabilidade e serviço personalizado reflete nosso amor pela beleza que a natureza oferece. Visite-nos e deixe a Floresta Negra florescer em sua vida.
+                </p>
+            </div>
+        </div>
+
+        <div class="card text-bg-dark ">
+
+            <h4 class="card-header bg-success text-white text-center">Categorias</h4>
+            <div class="card-body text-center">
+
+                <p class="card-text ">
+                    <a asp-area="" asp-controller="ProdutosAVenda" asp-action="BuqueSimples" class="text-decoration-none text-black border-1 border-bottom">Buquê Simples</a>
+                </p>
+                <p class="card-text">
+                    <a asp-area="" asp-controller="ProdutosAVenda" asp-action="BuqueChocolate" class="text-decoration-none text-black border-1 border-bottom">Buquê com Chocolate</a>
+                </p>
+                <p class="card-text">
+                    <a asp-area="" asp-controller="ProdutosAVenda" asp-action="FloresNoVaso" class="text-decoration-none text-black border-1 border-bottom">Flores no vaso</a>
+                </p>
+                <p class="card-text">
+                    <a asp-area="" asp-controller="ProdutosAVenda" asp-action="CoroaDeFlores" class="text-decoration-none text-black border-1 border-bottom">Coroa de flores</a>
+                </p>
+                <p class="card-text">
+                    <a asp-area="" asp-controller="ProdutosAVenda" asp-action="Folhagens" class="text-decoration-none text-black border-1 border-bottom">Folhagens</a>
+                </p>
+                <p class="card-text">
+                    <a asp-area="" asp-controller="ProdutosAVenda" asp-action="ArvoresFrutíferas" class="text-decoration-none text-black border-1 border-bottom">Árvores frutíferas</a>
+                </p>
+                <p class="card-text">
+                    <a asp-area="" asp-controller="ProdutosAVenda" asp-action="Vasos" class="text-decoration-none text-black border-1 border-bottom">Vasos</a>
+                </p>
+                <p class="card-text">
+                    <a asp-area="" asp-controller="ProdutosAVenda" asp-action="Cestas" class="text-decoration-none text-black border-1 border-bottom">Cestas</a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="flex-column col-md-9">
+        <div id="carouselExampleIndicators2 " class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="~/img/4.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="~/img/5.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="~/img/6.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="bg-white py-4">
+            <h1 class="text-uppercase text-center bg-success text-white shadow">Principais Itens do Dia</h1>
+        </div>
+
+        <div class="d-flex flex-wrap bg-white bordinha">
+
+            <div class="card col-md-4 text-bg-dark ">
+                <button class="btn">
+                    <div class="card-body">
+                        <img src="~/img/image 4.png" class="d-block w-100" alt="...">
+                        <p class="card-text">
+                            <div class="text-center text-white bg-secondary mb-2">
+                                Vaso Ornamentado
+                            </div>
+
+                            <div>
+                                SDADWDADWANMDJCSNJCDI aiSNDJNASICNENWD wniacndiancWINDCiWAJN nwdcnaijndnaij ndNAWJINDacniaiwjncdijwcAWJcdnaijncdawinjc
+                            </div>
+                        </p>
+                       
+                    </div>
+                </button>
+            </div>
+
+            @* ============= *@
+
+            <div class="card col-md-4 text-bg-dark">
+                <button class="btn">
+                    <div class="card-body">
+                        <img src="~/img/image 4.png" class="d-block w-100" alt="...">
+                        <p class="card-text">
+                            <div class="text-center text-white bg-secondary mb-2">
+                                Vaso Ornamentado
+                            </div>
+
+                            <div>
+                                SDADWDADWANMDJCSNJCDI aiSNDJNASICNENWD wniacndiancWINDCiWAJN nwdcnaijndnaij ndNAWJINDacniaiwjncdijwcAWJcdnaijncdawinjc
+                            </div>
+                        </p>                      
+                    </div>
+                </button>
+            </div>
+
+            @* ============= *@
+
+            <div class="card col-md-4 text-bg-dark ">
+                <button class="btn">
+                    <div class="card-body">
+                        <img src="~/img/image 4.png" class="d-block w-100" alt="...">
+                        <p class="card-text">
+                            <div class="text-center text-white bg-secondary mb-2">
+                                Vaso Ornamentado
+                            </div>
+
+                            <div>
+                                SDADWDADWANMDJCSNJCDI aiSNDJNASICNENWD wniacndiancWINDCiWAJN nwdcnaijndnaij ndNAWJINDacniaiwjncdijwcAWJcdnaijncdawinjc
+                            </div>
+                        </p>
+                    </div>
+
+                </button>
+            </div>
+
+            @* ============= *@
+
+            <div class="card col-md-4 text-bg-dark ">
+                <button class="btn">
+                    <div class="card-body">
+                        <img src="~/img/image 4.png" class="d-block w-100" alt="...">
+                        <p class="card-text">
+                            <div class="text-center text-white bg-secondary mb-2">
+                                Vaso Ornamentado
+                            </div>
+
+                            <div>
+                                SDADWDADWANMDJCSNJCDI aiSNDJNASICNENWD wniacndiancWINDCiWAJN nwdcnaijndnaij ndNAWJINDacniaiwjncdijwcAWJcdnaijncdawinjc
+                            </div>
+                        </p>
+                    </div>
+
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+</div>

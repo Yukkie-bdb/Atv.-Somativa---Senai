@@ -1,0 +1,59 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<style>
+
+    body {
+        background: linear-gradient(to bottom, #9ccb97, #39676b); /* Substitua as cores conforme necessário */
+    }
+
+    .form-check-input:checked {
+        background-color: #fb9070;
+        border-color: #f9693e;
+    }
+
+</style>
+
+
+<div class="row justify-content-center vh-75 align-content-center">
+    <div class="col-md-5">
+        <h1 class="text-white text-center fs-10 mb-5 sombra">@ViewData["Title"]</h1>
+
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="">
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+            <div class="form-floating mb-3 sombrabox">
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                <label asp-for="Input.Email" class="fs-5">Email</label>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3 sombrabox">
+                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <label asp-for="Input.Password" class="fs-5">Password</label>
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3 sombrabox">
+                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <label asp-for="Input.ConfirmPassword" class="fs-5">Confirm Password</label>
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="text-center mt-5">
+            <button id="registerSubmit" type="submit" class="w-50 btn btn-lg btnLogin text-white rounded-pill sombra2 sombrabox">Criar Conta</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="text-center mt-3 sombra2">
+      
+        <p>
+            <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl" class="text-white">Já tem uma conta? Faça Login</a>
+        </p>
+    </div>
+ 
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

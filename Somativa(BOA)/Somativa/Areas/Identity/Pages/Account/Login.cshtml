@@ -1,0 +1,61 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<style>
+    body {
+        background: linear-gradient(to bottom, #9ccb97, #39676b); /* Substitua as cores conforme necessário */
+    }
+
+    .form-check-input:checked {
+        background-color: #fb9070;
+        border-color: #f9693e;
+    }
+
+</style>
+
+<div class="row justify-content-center vh-75 align-content-center mt-5">
+
+    <div class="col-md-5">
+        <section>
+
+            <h1 class="text-white text-center fs-10 mb-5 sombra align-content-center">@ViewData["Title"]</h1>
+
+            <form id="account" method="post">
+       
+                <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                <div class="form-floating mb-3 sombrabox">
+                    <input asp-for="Input.Email" class="form-control ps-3" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                    <label asp-for="Input.Email" class="form-label  ps-3 fs-5">Email</label>
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3 sombrabox">
+                    <input asp-for="Input.Password" class="form-control ps-3" autocomplete="current-password" aria-required="true" placeholder="password" />
+                    <label asp-for="Input.Password" class="form-label ps-3 fs-5">Password</label>
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+
+
+                <div class="text-center mt-5 ">
+                    <button id="login-submit" type="submit" class="w-50 btn btn-lg btnLogin text-white rounded-pill sombra2 sombrabox">Entrar</button>
+                </div>
+                <div class="text-center mt-3 sombra2">
+                    <p >
+                        <a id="forgot-password" asp-page="./ForgotPassword" class="text-white">Esquece a sua senha?</a>
+                    </p>
+                    <p>
+                        <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" class="text-white">Não tem uma conta? Registre-se</a>
+                    </p>
+                </div>
+            </form>
+        </section>
+    </div>
+   
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

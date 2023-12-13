@@ -1,0 +1,84 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Somativa.Areas.Identity.Pages.Account;
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<ul class="navbar-nav">
+    @if (SignInManager.IsSignedIn(User))
+    {
+
+        <li class="nav-item dropdown d-none d-sm-block">
+            <a class="nav-link" href="#" data-bs-toggle="dropdown" aria-expanded="false"> 
+                <svg bootstrap-icon="PersonCircle" width="32" height="32" aria-label="Alarms" class="text-white"></svg> 
+                </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+                <li>
+                    <a class="dropdown-item" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Conta</a>
+                </li>
+                <li>
+                    <a class=" dropdown-item" asp-area="" asp-controller="Home" asp-action="IndexTables">Tabelas</a>
+                </li>
+
+
+
+                <li>
+                    <form class="" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                        <button type="submit" class="nav-link btn btn-link text-dark dropdown-item py-1 px-3">Sair</button>
+                    </form>
+                </li>
+            </ul>
+        </li>
+
+        <nav class="navbar navbar-dark d-block d-sm-none">
+            <div class="container-fluid px-0">
+                <button class="navbar-toggler btn border-0 px-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <svg bootstrap-icon="PersonCircle" width="32" height="32" aria-label="Alarms" class="text-white"></svg>
+                </button>
+
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body d-flex">
+                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 text-center fs-1 ">
+                            <li>
+                                <a class="dropdown-item my-2" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Conta</a>
+                            </li>
+                            <li>
+                                <a class=" dropdown-item my-2" asp-area="" asp-controller="Home" asp-action="IndexTables">Tabelas</a>
+                            </li>
+
+
+
+                            <li>
+                                <form class="" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                    <button type="submit" class="nav-link btn btn-link text-dark dropdown-item py-1 px-3 fs-1 my-2">Sair</button>
+                                </form>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    }
+
+    else
+    {
+        <li class="nav-item">
+            <a class="nav-link text-white" asp-area="Identity" asp-page="/Account/Login">Login</a>
+        </li>
+    }
+</ul>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+<style>
+    .offcanvas {
+        width: 60vw;
+    }
+</style>

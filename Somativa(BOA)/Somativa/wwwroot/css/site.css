@@ -1,0 +1,110 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/*******************//*******************//*******************/
+/*******************//*******************//*******************/
+
+.fs-64{
+    font-size:64px;
+}
+.fs-24 {
+    font-size: 24px;
+}
+
+.fixado {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fixadofoter {
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btnLogin {
+    background-color: #fb9070;
+}
+
+.vh-50 {
+    height: 35vw;
+}
+
+.fs-10 {
+    font-size: 72px;
+}
+
+    .sombra{
+        text-shadow: 2px 2px 1px black;
+    }
+
+    .sombra2 {
+        text-shadow: 1px 1px 1px black;
+    }
+
+    .sombrabox {
+        box-shadow: 2px 2px 1px black;
+    }
+
+body {
+    background: linear-gradient(to bottom, #9ccb97, #39676b);
+}
+
+.bg-verdinho {
+    background-color: #487527;
+}
+/*----------------------*/
+
+
+.aComLinha{
+    text-decoration:underline;
+}
+
+.aSemLinha {
+    text-decoration: none;
+}
+
+.bordinha {
+    border-radius: 10px;
+}
+
+.pt-25{
+    padding-top:5.25px
+}
+.ps-25 {
+    padding-top: 5.25px
+}
+.pe-25 {
+    padding-top: 5.25px
+}
+.pb-25 {
+    padding-top: 5.25px
+}
+
+row {
+    margin:0;
+}

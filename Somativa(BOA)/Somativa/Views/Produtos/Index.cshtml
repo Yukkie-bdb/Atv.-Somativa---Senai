@@ -1,0 +1,182 @@
+﻿@model IEnumerable<Somativa.Models.Produto>
+
+@{
+    ViewData["Title"] = "Produtos";
+}
+<partial name="~/Views/Home/_LayoutParcial.cshtml" />
+
+<div class="bg-white container bordinha">
+    <h1 class="text-center text-uppercase pt-3">@ViewData["Title"]</h1>
+
+    <div class="table-responsive">
+    <table class="table table-striped ">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Estoque)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Preco)
+                </th>
+                <th class="d-none d-sm-table-cell">
+                    @Html.DisplayNameFor(model => model.Categoria)
+                </th>
+                <th class="d-none d-sm-table-cell">
+                    @Html.DisplayNameFor(model => model.Fornecedor)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Estoque)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Preco)
+                    </td>
+                    <td class="d-none d-sm-table-cell">
+                        @Html.DisplayFor(modelItem => item.Categoria.Nome)
+                    </td>
+                    <td class="d-none d-sm-table-cell">
+                        @Html.DisplayFor(modelItem => item.Fornecedor.Nome)
+                    </td>
+                    <td class="text-end">
+
+                                <a asp-action="Edit" asp-route-id="@item.ProdutoId" class="aSemLinha ">
+                                    <svg bootstrap-icon="PencilSquare" width="32" height="32" aria-label="Alarms" class="text-primary"></svg>
+                                </a>
+                            <button asp-action="Delete" asp-route-id="@item.ProdutoId" class="btn aSemLinha px-0 pe-sm-0" data-bs-toggle="modal" data-bs-target="#Info-@item.ProdutoId">
+                                <svg bootstrap-icon="InfoCircleFill" width="32" height="32" aria-label="Alarms" class="text-secondary"></svg>
+                            </button>
+                            <button asp-action="Delete" asp-route-id="@item.ProdutoId" class="btn aSemLinha px-0 pe-sm-2" data-bs-toggle="modal" data-bs-target="#Apagar-@item.ProdutoId">
+                                    <svg bootstrap-icon="TrashFill" width="32" height="32" aria-label="Alarms" class="text-danger"></svg>
+                                </button>   
+                    </td>
+                </tr>
+
+                <!-- Modal APAGAR -->
+                <div class="modal fade" id="Apagar-@item.ProdutoId" tabindex="-1" aria-labelledby="ApagarLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header justify-content-center">
+                                <h3 class="text-center alert alert-danger">Tem certeza que deseja apagar esse Produto?</h3>
+                            </div>
+                            <div class="modal-body">
+                                <div>
+                                    <dl class="row text-center">
+                                        <dt class="col-sm-4">
+                                            @Html.DisplayNameFor(model => model.Nome)
+                                        </dt>
+                                        <dd class="col-sm-8">
+                                            @Html.DisplayFor(model => item.Nome)
+                                        </dd>
+                                        <dt class="col-sm-4">
+                                            @Html.DisplayNameFor(model => model.Estoque)
+                                        </dt>
+                                        <dd class="col-sm-8">
+                                            @Html.DisplayFor(model => item.Estoque)
+                                        </dd>
+                                        <dt class="col-sm-4">
+                                            @Html.DisplayNameFor(model => model.Preco)
+                                        </dt>
+                                        <dd class="col-sm-8">
+                                            @Html.DisplayFor(model => item.Preco)
+                                        </dd>
+                                        <dt class="col-sm-4">
+                                            @Html.DisplayNameFor(model => model.Categoria.CategoriaId)
+                                        </dt>
+                                        <dd class="col-sm-8">
+                                                @Html.DisplayFor(model => item.Categoria.Nome)
+                                        </dd>
+                                        <dt class="col-sm-4">
+                                            @Html.DisplayNameFor(model => model.Fornecedor.FornecedorId)
+                                        </dt>
+                                        <dd class="col-sm-8">
+                                                @Html.DisplayFor(model => item.Fornecedor.Nome)
+                                        </dd>
+                                        <!-- Add other properties as needed -->
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="modal-footer text-center justify-content-center">
+                                <form asp-action="Delete" asp-route-id="@item.ProdutoId">
+                                    <input type="hidden" asp-for="@item.ProdutoId" />
+                                    <input type="submit" value="Delete" class="btn btn-danger" />
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" aria-label="Close" asp-action="Index">Voltar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <!-- Modal INFO -->
+                    <div class="modal fade" id="Info-@item.ProdutoId" tabindex="-1" aria-labelledby="InfoLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header justify-content-center">
+                                    <h3 class="text-center alert alert-info">Informações sobre esse Produto</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div>
+                                        <dl class="row text-center">
+                                            <dt class="col-sm-4">
+                                                @Html.DisplayNameFor(model => model.Nome)
+                                            </dt>
+                                            <dd class="col-sm-8">
+                                                @Html.DisplayFor(model => item.Nome)
+                                            </dd>
+                                            <dt class="col-sm-4">
+                                                @Html.DisplayNameFor(model => model.Estoque)
+                                            </dt>
+                                            <dd class="col-sm-8">
+                                                @Html.DisplayFor(model => item.Estoque)
+                                            </dd>
+                                            <dt class="col-sm-4">
+                                                @Html.DisplayNameFor(model => model.Preco)
+                                            </dt>
+                                            <dd class="col-sm-8">
+                                                @Html.DisplayFor(model => item.Preco)
+                                            </dd>
+                                            <dt class="col-sm-4">
+                                                @Html.DisplayNameFor(model => model.Categoria.CategoriaId)
+                                            </dt>
+                                            <dd class="col-sm-8">
+                                                @Html.DisplayFor(model => item.Categoria.Nome)
+                                            </dd>
+                                            <dt class="col-sm-4">
+                                                @Html.DisplayNameFor(model => model.Fornecedor.FornecedorId)
+                                            </dt>
+                                            <dd class="col-sm-8">
+                                                @Html.DisplayFor(model => item.Fornecedor.Nome)
+                                            </dd>
+                                            <!-- Add other properties as needed -->
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="modal-footer text-center justify-content-center">
+                                      
+                                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" aria-label="Close" asp-action="Index">Voltar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            }
+        </tbody>
+    </table>
+    </div>
+
+    <div class="text-center pb-3">
+        <a asp-action="Create">
+            <svg bootstrap-icon="PlusSquareFill" width="32" height="32" aria-label="Alarms" class="text-success"></svg>
+        </a>
+    </div>
+</div>

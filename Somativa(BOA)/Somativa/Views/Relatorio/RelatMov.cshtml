@@ -1,0 +1,111 @@
+﻿@model IEnumerable<Somativa.Models.Movimentacao>
+
+@{
+    ViewData["Title"] = "Relatorio de Movimentações";
+    var produtos = ViewData["Produtos"] as List<Produto>;
+    produtos.Insert(0, new Produto { ProdutoId = new Guid(), Nome = "Todos" });
+}
+
+<partial name="~/Views/Home/_LayoutParcial.cshtml" />
+
+<div class="bg-white container bordinha pb-4">
+    <h1 class="text-center text-uppercase pt-3">@ViewData["Title"]</h1>
+    <hr />
+    <form class="mt-3 mb-3 ">
+
+
+        <div class="row justify-content-center">
+
+            <div class="col-12 col-md-6 mb-3 col-xl-2 ">
+                <label for="inDataIni" class="form-label">Data início</label>
+                <input type="date" id="inDataIni" name="inDataIni" class="form-control">
+            </div>
+
+            <div class="col-12 col-md-6 mb-3 col-xl-2">
+                <label for="inDataFim" class="form-label">Data fim</label>
+                <input type="date" id="inDataFim" name="inDataFim" class="form-control">
+            </div>
+
+            <div class="col-12 col-md-6 mb-3 col-xl-3 ">
+                <label for="inTipo" class="form-label">Tipo de movimentação</label>
+                <select id="inTipo" name="inTipo" class="form-control">
+                    <option value="0">Todos</option>
+                    <option value="1">Entradas</option>
+                    <option value="2">Saídas</option>
+                </select>
+            </div>
+
+            <div class="col-12 col-md-6 mb-3 col-xl-3">
+                <label for="inProduto" class="form-label">Produto</label>
+                <select id="inProduto" name="inProduto" class="form-control">
+                    @foreach (var item in produtos)
+                    {
+                        <option value="@item.Nome">@item.Nome</option>
+                    }
+                </select>
+            </div>
+
+
+            <div class="col-12 col-md-3 mb-3 mt-1 col-xl-2 ">
+                <div class="form-group ">
+                    <label></label>
+
+                    <button type="submit" class="btn form-control btn-success" id="btnFiltrar">Filtrar</button>
+                </div>
+            </div>
+
+        </div>
+    </form>
+    <hr />
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Nota)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.DataHora)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.TipoMovimentacao)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Produto)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Quantidade)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Unitario)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nota)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DataHora)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TipoMovimentacao)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Produto)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Quantidade)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Unitario)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

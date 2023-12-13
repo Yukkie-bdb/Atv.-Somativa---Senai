@@ -1,0 +1,96 @@
+﻿@model IEnumerable<Somativa.Models.Produto>
+
+@{
+    ViewData["Title"] = "Relatorio de Produtos";
+
+    List<Categoria> categorias = new List<Categoria>
+    {
+        new Categoria { CategoriaId = new Guid(), Nome = "Todas" }
+    };
+    var categ = ViewData["Categ"] as List<Categoria>;
+
+    foreach (var item in categ)
+    {
+        categorias.Add(new Categoria { CategoriaId = item.CategoriaId, Nome = item.Nome });
+    }
+}
+
+<partial name="~/Views/Home/_LayoutParcial.cshtml" />
+
+<div class="bg-white container bordinha pb-4">
+    <h1 class="text-center text-uppercase pt-3">@ViewData["Title"]</h1>
+
+    <hr />
+
+    <form>
+        <div class="row d-flex align-items-center text-center justify-content-center">
+            <div class="col-md-4">
+                <div class="form-group" id="filtros">
+                    <label for="inCategoria">Categoria</label>
+                    <select name="inCategoria" class="form-control">
+                        
+                        @foreach (var item in categorias)
+                        {
+                            <option value="@item.CategoriaId">@item.Nome</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="form-group">
+                    <label for="inNome">Nome</label>
+                    <input name="inNome" id="inNome" type="text" class="form-control" placeholder="Pesquisar pelo nome" />
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label></label>
+                    <button type="submit" class="btn form-control btn-success" id="btnFiltrar">Filtrar</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+
+    <hr />
+
+    <table class="table table-striped ">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Categoria.Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Estoque)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Preco)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Categoria.Nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Estoque)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Preco)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

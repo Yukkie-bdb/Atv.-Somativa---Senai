@@ -1,0 +1,657 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Somativa.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Somativa.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\1.png",
+      "PackagePath": "staticwebassets\\img\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\2.png",
+      "PackagePath": "staticwebassets\\img\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\236a4c3e-a746-4bd4-a057-0a4d9946ff0e_simples8.png",
+      "PackagePath": "staticwebassets\\img\\236a4c3e-a746-4bd4-a057-0a4d9946ff0e_simples8.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\3.png",
+      "PackagePath": "staticwebassets\\img\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\4.png",
+      "PackagePath": "staticwebassets\\img\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\43f70f51-dae3-418e-8c4f-aa85ecc0908d_image 10.png",
+      "PackagePath": "staticwebassets\\img\\43f70f51-dae3-418e-8c4f-aa85ecc0908d_image 10.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\5.png",
+      "PackagePath": "staticwebassets\\img\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\6.png",
+      "PackagePath": "staticwebassets\\img\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\7b6fa76e-c8a4-4ee0-a84a-72811a4057ca_image 7.png",
+      "PackagePath": "staticwebassets\\img\\7b6fa76e-c8a4-4ee0-a84a-72811a4057ca_image 7.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\87946342-ab0a-4348-b262-20ec52d4d275_simples9.png",
+      "PackagePath": "staticwebassets\\img\\87946342-ab0a-4348-b262-20ec52d4d275_simples9.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\BoqueSimples\\simples1.png",
+      "PackagePath": "staticwebassets\\img\\BoqueSimples\\simples1.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\BoqueSimples\\simples2.png",
+      "PackagePath": "staticwebassets\\img\\BoqueSimples\\simples2.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\BoqueSimples\\simples3.png",
+      "PackagePath": "staticwebassets\\img\\BoqueSimples\\simples3.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\BoqueSimples\\simples4.png",
+      "PackagePath": "staticwebassets\\img\\BoqueSimples\\simples4.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\BoqueSimples\\simples5.png",
+      "PackagePath": "staticwebassets\\img\\BoqueSimples\\simples5.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\BoqueSimples\\simples6.png",
+      "PackagePath": "staticwebassets\\img\\BoqueSimples\\simples6.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\BoqueSimples\\simples7.png",
+      "PackagePath": "staticwebassets\\img\\BoqueSimples\\simples7.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\BoqueSimples\\simples8.png",
+      "PackagePath": "staticwebassets\\img\\BoqueSimples\\simples8.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\BoqueSimples\\simples9.png",
+      "PackagePath": "staticwebassets\\img\\BoqueSimples\\simples9.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\a\\image 10.png",
+      "PackagePath": "staticwebassets\\img\\a\\image 10.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\a\\image 2.png",
+      "PackagePath": "staticwebassets\\img\\a\\image 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\a\\image 3.png",
+      "PackagePath": "staticwebassets\\img\\a\\image 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\a\\image 4.png",
+      "PackagePath": "staticwebassets\\img\\a\\image 4.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\a\\image 5.png",
+      "PackagePath": "staticwebassets\\img\\a\\image 5.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\a\\image 6.png",
+      "PackagePath": "staticwebassets\\img\\a\\image 6.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\a\\image 7.png",
+      "PackagePath": "staticwebassets\\img\\a\\image 7.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\a\\image 8.png",
+      "PackagePath": "staticwebassets\\img\\a\\image 8.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\a\\image 9.png",
+      "PackagePath": "staticwebassets\\img\\a\\image 9.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\b0677291-7873-498c-84e2-6946685901e7_simples5.png",
+      "PackagePath": "staticwebassets\\img\\b0677291-7873-498c-84e2-6946685901e7_simples5.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\bce5c32c-8492-42dd-a2bf-d0560e8b089f_simples8.png",
+      "PackagePath": "staticwebassets\\img\\bce5c32c-8492-42dd-a2bf-d0560e8b089f_simples8.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\carrossel.png",
+      "PackagePath": "staticwebassets\\img\\carrossel.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\carrossel1.png",
+      "PackagePath": "staticwebassets\\img\\carrossel1.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\carrossel2.png",
+      "PackagePath": "staticwebassets\\img\\carrossel2.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\carrossel3.png",
+      "PackagePath": "staticwebassets\\img\\carrossel3.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\carrossel4.png",
+      "PackagePath": "staticwebassets\\img\\carrossel4.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\carrossel5.png",
+      "PackagePath": "staticwebassets\\img\\carrossel5.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\carrossel6.png",
+      "PackagePath": "staticwebassets\\img\\carrossel6.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\carrossel7.png",
+      "PackagePath": "staticwebassets\\img\\carrossel7.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\d27d1549-707c-44df-bac5-8fcc64e7b0ef_simples8.png",
+      "PackagePath": "staticwebassets\\img\\d27d1549-707c-44df-bac5-8fcc64e7b0ef_simples8.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\f1a10110-ec59-4d09-a662-28b30622e96b_image 9.png",
+      "PackagePath": "staticwebassets\\img\\f1a10110-ec59-4d09-a662-28b30622e96b_image 9.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\foto.png",
+      "PackagePath": "staticwebassets\\img\\foto.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\image 10.png",
+      "PackagePath": "staticwebassets\\img\\image 10.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\image 2.png",
+      "PackagePath": "staticwebassets\\img\\image 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\image 3.png",
+      "PackagePath": "staticwebassets\\img\\image 3.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\image 4.png",
+      "PackagePath": "staticwebassets\\img\\image 4.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\image 5.png",
+      "PackagePath": "staticwebassets\\img\\image 5.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\image 6.png",
+      "PackagePath": "staticwebassets\\img\\image 6.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\image 7.png",
+      "PackagePath": "staticwebassets\\img\\image 7.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\image 8.png",
+      "PackagePath": "staticwebassets\\img\\image 8.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\image 9.png",
+      "PackagePath": "staticwebassets\\img\\image 9.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\imagem banner 2.png",
+      "PackagePath": "staticwebassets\\img\\imagem banner 2.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\imagem banner promo.png",
+      "PackagePath": "staticwebassets\\img\\imagem banner promo.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\img\\imagem banner.png",
+      "PackagePath": "staticwebassets\\img\\imagem banner.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\Desktop\\Somativa(BOA)\\Somativa\\wwwroot\\uploads\\588219b4-21a9-4503-a5a9-bb029e8ee3a4_simples8.png",
+      "PackagePath": "staticwebassets\\uploads\\588219b4-21a9-4503-a5a9-bb029e8ee3a4_simples8.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Somativa.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Somativa.props",
+      "PackagePath": "build\\Somativa.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Somativa.props",
+      "PackagePath": "buildMultiTargeting\\Somativa.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Somativa.props",
+      "PackagePath": "buildTransitive\\Somativa.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

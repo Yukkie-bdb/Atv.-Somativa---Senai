@@ -1,0 +1,45 @@
+﻿@model Somativa.Models.Venda
+
+@{
+    ViewData["Title"] = "Criar";
+}
+
+<div class="row container justify-content-center bg-white bordinha mx-0">
+    <div class="col-md-4">
+        <h1 class="text-center text-uppercase mt-3">Venda</h1>
+        <h2 class="text-center text-uppercase mt-3 text-secondary">Criar</h2>
+        <hr />
+
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Nota" class="control-label"></label>
+                <input asp-for="Nota" class="form-control" />
+                <span asp-validation-for="Nota" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ClienteId" class="control-label"></label>
+                <select asp-for="ClienteId" class="form-control" asp-items="ViewBag.ClienteId"></select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DataHora" class="control-label"></label>
+                <input asp-for="DataHora" class="form-control" />
+                <span asp-validation-for="DataHora" class="text-danger"></span>
+            </div>
+
+            <div class="form-group text-center my-4">
+                <input type="submit" value="Criar" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Voltar à Lista</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

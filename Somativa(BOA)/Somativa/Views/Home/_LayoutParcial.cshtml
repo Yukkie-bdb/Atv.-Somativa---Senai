@@ -1,0 +1,83 @@
+﻿<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 rounded-pill d-none d-sm-block">
+    <div class="container-fluid ">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between ">
+            <ul class="navbar-nav flex-grow-1 justify-content-center">
+
+                <li class="nav-item ">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Index">Clientes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Fornecedores" asp-action="Index">Fornecedores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Categorias" asp-action="Index">Categorias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Produtos" asp-action="Index">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Vendas" asp-action="Index">Vendas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Compras" asp-action="Index">Compras</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Relatorio" asp-action="RelatProd">Relatório de produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Relatorio" asp-action="RelatMov">Relatório de movimentações</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 rounded-pill d-block d-sm-none">
+    <div class="container-fluid px-0 justify-content-center">
+
+        <button class="navbar-toggler btn border-0 px-2 text-black " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbarLayout" aria-controls="offcanvasDarkNavbar">
+            TABELAS
+        </button>
+
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbarLayout" aria-labelledby="offcanvasDarkNavbarLayoutLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLayoutLabel">Tabelas</h5>
+                <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body d-flex">
+                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 text-end fs-2 ">
+
+                    <li class="nav-item border-top border-1">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Index">Clientes</a>
+                    </li>
+                    <li class="nav-item border-top border-1">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Fornecedores" asp-action="Index">Fornecedores</a>
+                    </li>
+                    <li class="nav-item border-top border-1">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Categorias" asp-action="Index">Categorias</a>
+                    </li>
+                    <li class="nav-item border-top border-1">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Produtos" asp-action="Index">Produtos</a>
+                    </li>
+                    <li class="nav-item border-top border-1">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Vendas" asp-action="Index">Vendas</a>
+                    </li>
+                    <li class="nav-item border-top border-1">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Compras" asp-action="Index">Compras</a>
+                    </li>
+                    <li class="nav-item border-top border-1">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Relatorio" asp-action="RelatProd">Relatório de produtos</a>
+                    </li>
+                    <li class="nav-item border-top border-bottom border-1">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Relatorio" asp-action="RelatMov">Relatório de movimentações</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</nav>

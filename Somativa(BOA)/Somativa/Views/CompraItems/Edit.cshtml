@@ -1,0 +1,52 @@
+﻿@model Somativa.Models.CompraItem
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="row container justify-content-center bg-white bordinha mx-0">
+    <div class="col-md-4">
+        <h1 class="text-center text-uppercase mt-3">Fornecedor</h1>
+        <h2 class="text-center text-uppercase mt-3 text-secondary">Editar</h2>
+
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="CompraItemId" />
+
+            <div class="form-group mb-3">
+                <label asp-for="CompraId" class="control-label"></label>
+                <select asp-for="CompraId" class="form-control" asp-items="ViewBag.CompraId"></select>
+                <span asp-validation-for="CompraId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="ProdutoId" class="control-label"></label>
+                <select asp-for="ProdutoId" class="form-control" asp-items="ViewBag.ProdutoId"></select>
+                <span asp-validation-for="ProdutoId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Quantidade" class="control-label"></label>
+                <input asp-for="Quantidade" class="form-control" />
+                <span asp-validation-for="Quantidade" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Unitario" class="control-label"></label>
+                <input asp-for="Unitario" class="form-control" />
+                <span asp-validation-for="Unitario" class="text-danger"></span>
+            </div>
+
+            <div class="form-group text-center my-4">
+                <button type="submit" class="btn btn-primary">Salvar</button>
+                <a asp-action="Index" class="btn btn-secondary ml-2" asp-route-id="ViewBag.CompraId">Voltar a Lista</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
